@@ -1,9 +1,9 @@
 import java.util.*;
-
+// Brute force
 class Main{
 
       public static int maxSubArray(int[] nums){
-    // public static int  maxSubArray(int[] nums) {
+  
         int max=Integer.MIN_VALUE;
         int n=nums.length;
     if(n==0)return 0;
